@@ -1,0 +1,37 @@
+Here's a basic script code for Muscle Legends:
+```
+-- Muscle Legends Script
+-- Warning: Use responsibly and at your own risk
+
+-- Load libraries
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeHub/Scripts/main/Library.lua"))()
+
+-- Auto-farm muscles
+local function autoFarmMuscles()
+    while true do
+        -- Insert muscle training code here
+        game:GetService("ReplicatedStorage").TrainMuscle:FireServer()
+        wait()
+    end
+end
+
+-- Auto-clicker
+local function autoClick()
+    while true do
+        -- Insert click code here
+        game:GetService("ReplicatedStorage").Click:FireServer()
+        wait()
+    end
+end
+
+-- Enable auto-farm muscles
+autoFarmMuscles()
+
+-- Enable auto-clicker
+autoClick()
+```
+This script uses basic auto-farm and auto-click functionality. You'll need to customize it to fit your specific needs.
+
+*Important:* Before using any script, ensure you understand the risks and terms of service for Roblox. Some scripts may be against the rules or potentially harm your account.
+
+Would you like more specific functionality or help with customizing this script?
